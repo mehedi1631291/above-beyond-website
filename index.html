@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>task problem</title>
+	<title>Above & Beyond</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="about us.html">ABOUT</a></li>
 					<li><a href="">BOOK NOW</a></li>
-					<li><a href="">BLOG</a></li>
+					<li><a href="blog.html">BLOG</a></li>
 					<li><a href="">HELP</a></li>
 					<li><a href="">CONTACT</a></li>
 				</ul>
@@ -33,7 +33,7 @@
 			</div>
 			<div class="phone_number">
 				<ul>
-					<li><a href="tel:0163341649 ">016-334-1649</a></li>
+					<li><a href="tel:0163341649 ">618-652-5446</a></li>
 				</ul>
 				
 			</div>
@@ -54,9 +54,10 @@
 					</div>
 					<div class="testimonial_contant">
 						<img src="img/testimonial_star.png">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut </p>
+						<p>"Very detailed! Wow. Surpassed my expectations. My house was immaculate
+						after the initial cleaning. Above and Beyond offers the uitimate service and 
+					Ellen the owner extremely friendly and professional. Best cleaning service I've ever had. A+"
+					<a href="">Read more</a><br><br> <br><em>Kristin from Sinking Spring</em></p>
 						
 					</div>
 
@@ -241,6 +242,42 @@
 			
 		</div>
 	</section>
+
+
+	<section class="finding_trust">
+		<div class="finding_trust_area">
+			<div class="column">
+				<div class="finding_trust_area_all">
+					<div class="finding_trust_text_area">
+						<h1>finding trusted cleaners for you.</h1>
+						<p>We know inviting someone into your home is a big deal. All Above & Beyond cleaners
+							are<br> carefully vetted by us so we choose the right person to care for your home.<br><br>
+						We guarantee & Beyond cleaners will always be:</p>
+						
+					</div>
+					<div class="finding_trust_png_area">
+						<ul>
+							<li><img src="img/finding_for-_cleaners_1.png"><br><p>Experienced &<br>professional</p></li>
+							<li><img src="img/finding_for_cleaners_2.png"><p>English speaking</p></li>
+							<li><img src="img/finding_for_cleaners_3.png"><p>Background &<br> referenced checked</p></li>
+
+							<li class="cleaners_4_edit"><img src="img/finding_for_cleaners_4.png"><p>Interviewed in-person</p></li>
+
+							<li><img src="img/finding_for_cleaners_5.png"><p>Highly rated by others<br>Above & Beyond customers</p></li>
+
+						</ul>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+
 	<section class="testimonial_area_comment_area">
 		<div class="column">
 			<div class="testimonial_bg_area">
@@ -321,10 +358,6 @@
 						</div>
 
 						
-
-
-
-						
 					</div>
 					
 				</div>
@@ -379,7 +412,7 @@
 							<div class="footer_tel_logo_area">
 								<img src="img/footer_tel.png">
 
-								<a href="tel:1234567">610-334-1649</a>
+								<a href="tel:1234567">618-652-5446</a>
 								
 							</div>
 
@@ -407,17 +440,35 @@
 			
 		</div>
 
-
-
-
-
-
-
-
-
-		
-		
 	</footer>
+
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+
+
+
+	<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 </html>
