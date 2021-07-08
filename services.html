@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Services</title>
 	<link rel="stylesheet" type="text/css" href="css/services.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/033a4f9a2d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,13 +41,13 @@
 
 		<section class="service_area">
 			<div class="column">
-				<div class="writen_area">
+				<div class="writen_area" data-aos="zoom-out-up">
 					<h1>Our Services</h1>
 					<p>At Above & Beyond Team, our highly trained, experienced, and skilled cleaning specialists offer thorough and<br>organized cleaning services for all our clients</p>
 					
 				</div>
 
-				<div class="services_fist_line">
+				<div class="services_fist_line" data-aos="zoom-out-up">
 					<div class="services_first_line_area">
 						<img src="img/service-img_1.png">
 						<h3>Apartment Cleaning</h3>
@@ -56,7 +57,7 @@
 					
 				</div>
 
-				<div class="services_second_line">
+				<div class="services_second_line" data-aos="zoom-out-up">
 					<div class="services_first_line_area">
 						<img src="img/service_img_2.png">
 						<h3>House Cleaning</h3>
@@ -66,7 +67,7 @@
 					
 				</div>
 
-				<div class="services_third_line">
+				<div class="services_third_line" data-aos="zoom-out-up">
 					<div class="services_first_line_area">
 						<img src="img/service_img_3.png">
 						<h3>Move In / Move Out</h3>
@@ -87,7 +88,7 @@
 
 
 
-				<div class="services2_fist_line">
+				<div class="services2_fist_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_4.png">
 						<h3>Сarpet Сleaning</h3>
@@ -97,7 +98,7 @@
 					
 				</div>
 
-				<div class="services2_second_line">
+				<div class="services2_second_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_5.png">
 						<h3>After Renovation</h3>
@@ -107,7 +108,7 @@
 					
 				</div>
 
-				<div class="services2_third_line">
+				<div class="services2_third_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_6.png">
 						<h3>Curtain Cleaning</h3>
@@ -127,7 +128,7 @@
 
 
 
-				<div class="services3_fist_line">
+				<div class="services3_fist_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_7.png">
 						<h3>Window Cleaning</h3>
@@ -137,7 +138,7 @@
 					
 				</div>
 
-				<div class="services3_second_line">
+				<div class="services3_second_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_8.png">
 						<h3>Commercial Cleaning</h3>
@@ -147,7 +148,7 @@
 					
 				</div>
 
-				<div class="services3_third_line">
+				<div class="services3_third_line" data-aos="zoom-out-up">
 					<div class="services2_first_line_area">
 						<img src="img/service_img_9.png">
 						<h3>Residential Cleaning</h3>
@@ -172,18 +173,18 @@
 		</section>
 
 		<section class="additional_area">
-			<div class="additional_service_area">
+			<div class="additional_service_area" data-aos="zoom-in"     data-aos-duration="11000">
 				<div class="h_text_area">
 					<h3>Additional Services</h3>
 					
 				</div>
-				<div class="p_text_area1">
+				<div class="p_text_area1" data-aos="zoom-in-down">
 					<p>TV/Accessories</p><br><p>Shelves</p><br><p>Picture Frames</p><br><p>Tables</p>
 					<br><p>Chairs</p><br><p>Lamps Lighting</p><br>
 					
 				</div>
 
-				<div class="p_text_area2">
+				<div class="p_text_area2" data-aos="zoom-in-down">
 
     <p>Turn off Lights</p><br>
     <p>Vents</p><br>
@@ -193,7 +194,7 @@
     <p>Shower Doors</p><br>
     			</div>
 
-    			<div class="p_text_area3">
+    			<div class="p_text_area3" data-aos="zoom-in-down">
 
 
     <p>Stove Tops</p><br>
@@ -206,7 +207,7 @@
 
     				
     			</div>
-    			<div class="p_text_area4">
+    			<div class="p_text_area4" data-aos="zoom-in-down">
 
 
     <p>Dishwasher</p><br>
@@ -229,7 +230,7 @@
 
 
 		<section class="discounts_for_recurring_clientele">
-			<div class="discounts_text_area_h_and_p">
+			<div class="discounts_text_area_h_and_p" data-aos="flip-up">
 				<h3>Discounts for Recurring Clientele</h3>
 				<p>Looking to setup a regular cleaning? We offer huge savings to loyal customers<br>
 (applies to second cleaning onward).</p>
@@ -379,27 +380,40 @@
 
 
 
-	<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+					<script>
+				//Get the button
+				var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+				// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+				function scrollFunction() {
+				  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				    mybutton.style.display = "block";
+				  } else {
+				    mybutton.style.display = "none";
+				  }
+				}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+				// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+				</script>
+
+
+
+
+
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+			  AOS.init({
+			  	offset: 230,
+			  	duration: 1000,
+			  });
+			</script>
+
 		
 
 
